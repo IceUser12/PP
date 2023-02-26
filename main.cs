@@ -8,7 +8,7 @@ namespace Git
 		{
 			System.Console.WriteLine("Enter your first name: ");
 			string first_name = Console.ReadLine();
-			System.Console.WriteLine(name.Length); //debug line
+			System.Console.WriteLine(name.Length); 
 			string last_name = Console.ReadLine();
 			System.Console.WriteLine($"Hello {first_name} {last_name}!");
 		}
